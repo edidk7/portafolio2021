@@ -150,6 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #main {
   margin-left: 300px;
+  z-index: 5;
 }
 
 @media (max-width: 1199px) {
@@ -158,6 +159,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   #main {
     margin-left: 0;
+    z-index: 5;
   }
 }
 
@@ -588,6 +590,28 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Experience
+--------------------------------------------------------------*/
+
+#experience table ul {
+  list-style: none;
+}
+
+#experience table ul li span {
+font-size: 13px;
+}
+
+#experience table ul li::before {
+  content: "\2022";
+  color: #E5A228;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+
+/*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
@@ -718,7 +742,7 @@ section {
     margin-top: 40px;
   }
   .portfolio-description h2, p{
-    /* margin-left: 20px; */
+    margin-left: 0px !important;
     text-align: justify;
   }
 }
