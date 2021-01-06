@@ -89,6 +89,22 @@
 		bottom: 0px;
 	}
 }
+
+@media (max-width: 568px) {
+	#hero {
+		height: 110vh;
+		&:before {
+			bottom: 0px;
+		}
+		h1 {
+			width: 100%;
+		}
+	} 
+	.hero-container-mobile {
+		margin-top: -40em;
+	}
+}
+
 @media (max-width: 480px) {
 	#hero {
 		p {
