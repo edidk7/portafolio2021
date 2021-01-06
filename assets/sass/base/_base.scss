@@ -11,3 +11,37 @@ body{
     font-family: "Open Sans", sans-serif;
     color: #272829c2;
 }
+
+/*--------------------------------------------------------------
+  # Sections General
+  --------------------------------------------------------------*/
+  section {
+	padding: 60px 0;
+	overflow: hidden;
+}
+.section-bg {
+	background: #f5f8fd;
+}
+.section-title {
+	padding-bottom: 30px;
+	h2 {
+		font-size: 32px;
+		font-weight: bold;
+		padding-bottom: 20px;
+		position: relative;
+		color: #323131db;
+		&::after {
+			content: '';
+			position: absolute;
+			display: block;
+			width: 50px;
+			height: 3px;
+			background: #E5A228;
+			bottom: 0;
+			left: 0;
+		}
+	}
+	p {
+		margin-bottom: 0;
+	}
+}

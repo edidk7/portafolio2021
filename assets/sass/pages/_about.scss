@@ -1,0 +1,155 @@
+/*--------------------------------------------------------------
+  # About
+  --------------------------------------------------------------*/
+ /*--------------------------------------------------------------
+  # Icons Tecnologies
+  --------------------------------------------------------------*/
+
+.fa-html5 {
+	transition: all 0.5s ease;
+	&:hover {
+		opacity: 1;
+		transition: all 0.5s ease;
+		color: #E55126;
+	}
+}
+.fa-css3-alt {
+	transition: all 0.5s ease;
+	&:hover {
+		opacity: 1;
+		transition: all 0.5s ease;
+		color: #0C73B8;
+	}
+}
+.fa-js {
+	transition: all 0.5s ease;
+	&:hover {
+		opacity: 1;
+		transition: all 0.5s ease;
+		color: #E5A228;
+	}
+}
+.fa-bootstrap {
+	transition: all 0.5s ease;
+	&:hover {
+		opacity: 1;
+		transition: all 0.5s ease;
+		color: #5D3C7F;
+	}
+}
+.fa-sass {
+	transition: all 0.5s ease;
+	&:hover {
+		opacity: 1;
+		transition: all 0.5s ease;
+		color: #C56394;
+	}
+}
+.bxl-jquery {
+	transition: all 0.5s ease;
+	&:hover {
+		opacity: 1;
+		transition: all 0.5s ease;
+		color: #0C68AC;
+	}
+}
+.fa-vuejs {
+	transition: all 0.5s ease;
+	&:hover {
+		opacity: 1;
+		transition: all 0.5s ease;
+		color: #41B883;
+	}
+}
+.fa-react {
+	transition: all 0.5s ease;
+	&:hover {
+		opacity: 1;
+		transition: all 0.5s ease;
+		color: #61DAFB;
+	}
+}
+.fa-node {
+	transition: all 0.5s ease;
+	&:hover {
+		opacity: 1;
+		transition: all 0.5s ease;
+		color: #91C441;
+	}
+}
+.fa-wordpress {
+	transition: all 0.5s ease;
+	&:hover {
+		opacity: 1;
+		transition: all 0.5s ease;
+		color: #21759B;
+	}
+}
+.fa-php {
+	transition: all 0.5s ease;
+	&:hover {
+		opacity: 1;
+		transition: all 0.5s ease;
+		color: #777BB3;
+	}
+}
+.fa-laravel {
+	transition: all 0.5s ease;
+	&:hover {
+		opacity: 1;
+		transition: all 0.5s ease;
+		color: #FF2D20;
+	}
+}
+.fa-github {
+	transition: all 0.5s ease;
+	&:hover {
+		opacity: 1;
+		transition: all 0.5s ease;
+		color: #062738;
+	}
+}
+.fa-git-alt {
+	transition: all 0.5s ease;
+	&:hover {
+		opacity: 1;
+		transition: all 0.5s ease;
+		color: #F34F29;
+	}
+}
+.bxl-adobe {
+	transition: all 0.5s ease;
+	&:hover {
+		opacity: 1;
+		transition: all 0.5s ease;
+		color: #fa0f00;
+	}
+}
+.fa-figma {
+	transition: all 0.5s ease;
+	&:hover {
+		opacity: 1;
+		transition: all 0.5s ease;
+		color: #323131a3;
+	}
+}
+.fa-jquey {
+	&:hover {
+		opacity: 1;
+		transition: all 0.5s ease;
+		color: #C56394;
+	}
+}
+@media (max-width: 768px) {
+	.about {
+		h2 {
+			margin-top: 0;
+		}
+	}
+	p {
+		margin-top: 0;
+	}
+	.icon-tecnologies {
+		font-size: 2.5em !important;
+	}
+}
