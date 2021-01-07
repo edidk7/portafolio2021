@@ -60,6 +60,22 @@
 }
 
   #experience {
+	ul {
+		list-style: none;
+		li {
+			span {
+				font-size: 13px;
+			}
+			&::before {
+				content: "\2022";
+				color: #E5A228;
+				font-weight: bold;
+				display: inline-block;
+				width: 1em;
+				margin-left: -1em;
+			}
+		}
+	}
 	table {
 		ul {
 			list-style: none;
