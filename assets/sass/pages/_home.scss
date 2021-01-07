@@ -58,7 +58,7 @@
 }
 @media (max-width: 768px) {
 	#hero {
-		height: 70vh;
+		height:90vh;
 		&:before {
 			bottom: 0px;
 		}
@@ -75,22 +75,12 @@
 			margin-bottom: 30px;
 		}
 	}
-	
-	h2 {
-		// margin-left: 0px;
-		// margin-top: 600px;
-	}
-	p {
-		// margin-left: 0px;
-		// margin-top: 600px;
-	}
-
 	.wave-hero {
 		bottom: 0px;
 	}
 }
 
-@media (max-width: 568px) {
+@media screen and (min-height: 320px) and (max-width: 568px) and (orientation: landscape) {
 	#hero {
 		height: 110vh;
 		&:before {
