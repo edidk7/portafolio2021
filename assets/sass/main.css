@@ -1199,6 +1199,10 @@ a:hover {
   transition: all 0.5s ease;
 }
 
+.contact a {
+  text-decoration: none;
+}
+
 .bx-mail-send {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
