@@ -5,12 +5,21 @@
 # Back to top button
 --------------------------------------------------------------*/
 a {
-  color: #272829c2;
+  color: $color-secondary;
   text-decoration: none;
-  &:hover {
+  cursor: pointer;
+  &:hover{
     color: #e5a228;
     text-decoration: none;
+    text-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    //transition: width .3s;
   }
+}
+
+.link{
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
 }
 .btn-principal {
   color: #fff;
