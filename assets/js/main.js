@@ -7,8 +7,12 @@
 !(function ($) {
   "use strict";
 
-  $('[data-toggle="tooltip"]').tooltip();
-    
+  $(window).on("load", function () {
+    setTimeout(function () {
+      $(".loader-page").css({ visibility: "hidden", opacity: "0" });
+    }, 1500);
+  });
+
   // Hero typed
   if ($(".typed").length) {
     var typed_strings = $(".typed").data("typed-items");
@@ -49,9 +53,7 @@
 
         if ($("body").hasClass("mobile-nav-active")) {
           $("body").removeClass("mobile-nav-active");
-          $(".mobile-nav-toggle i").toggleClass(
-            "bx-menu-alt-right bx-x"
-          );
+          $(".mobile-nav-toggle i").toggleClass("bx-menu-alt-right bx-x");
         }
         return false;
       }
@@ -77,9 +79,7 @@
 
   $(document).on("click", ".mobile-nav-toggle", function (e) {
     $("body").toggleClass("mobile-nav-active");
-    $(".mobile-nav-toggle i").toggleClass(
-      "bx-menu-alt-right bx-x"
-    );
+    $(".mobile-nav-toggle i").toggleClass("bx-menu-alt-right bx-x");
   });
 
   $(document).click(function (e) {
@@ -87,9 +87,7 @@
     if (!container.is(e.target) && container.has(e.target).length === 0) {
       if ($("body").hasClass("mobile-nav-active")) {
         $("body").removeClass("mobile-nav-active");
-        $(".mobile-nav-toggle i").toggleClass(
-          "bx-menu-alt-right bx-x"
-        );
+        $(".mobile-nav-toggle i").toggleClass("bx-menu-alt-right bx-x");
       }
     }
   });
@@ -187,18 +185,18 @@
     dots: true,
     loop: true,
     items: 1,
-    margin:1,
+    margin: 1,
     responsive: {
       0: {
-        items: 3
+        items: 3,
       },
       600: {
-        items: 4
+        items: 4,
       },
       1000: {
-        items: 4
-      }
-    }
+        items: 4,
+      },
+    },
   });
 
   // Init AOS
