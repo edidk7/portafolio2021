@@ -1,49 +1,51 @@
 .contact {
-	h4 {
-		font-size: 16px;
-		font-weight: 600;
-		transition: all 0.5s ease;
-	}
-	a{
-		text-decoration: none;
-	}
+	padding-top: 200px;
+  padding-bottom: 150px;
+  h4 {
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.5s ease;
+  }
+  a {
+    text-decoration: none;
+  }
 }
 .bx-mail-send {
-	transition: all 0.5s ease;
-	&:hover {
-		opacity: 1;
-		color: #E5A228;
-	}
+  transition: all 0.5s ease;
+  &:hover {
+    opacity: 1;
+    color: #e5a228;
+  }
 }
 .fa-whatsapp {
-	transition: all 0.5s ease;
-	&:hover {
-		opacity: 1;
-		color: #E5A228;
-	}
+  transition: all 0.5s ease;
+  &:hover {
+    opacity: 1;
+    color: #e5a228;
+  }
 }
 .fa-linkedin {
-	transition: all 0.5s ease;
-	&:hover {
-		opacity: 1;
-		color: #E5A228;
-	}
+  transition: all 0.5s ease;
+  &:hover {
+    opacity: 1;
+    color: #e5a228;
+  }
 }
 .card-contact {
-	transition: all 0.3s ease 0s;
-	cursor: pointer;
-	outline: none;
-	&:hover {
-		color: #fff;
-		transform: translateY(-7px);
-	}
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  &:hover {
+    color: #fff;
+    transform: translateY(-7px);
+  }
 }
 @media (max-width: 768px) {
-	#contact{
-		// margin-top: -680px;
-	}
+  #contact {
+    // margin-top: -680px;
+  }
 
-	#contact h4{
-		font-size: 13px;
-	}
+  #contact h4 {
+    font-size: 13px;
+  }
 }
