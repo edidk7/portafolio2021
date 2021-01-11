@@ -2,48 +2,56 @@
 # Facts
 --------------------------------------------------------------*/
 .facts {
+    padding-top: 150px;
     padding-bottom: 0px;
+    p{
+        text-align: left;
+    }
+	.count-box {
+		padding: 30px;
+		width: 100%;
+		i {
+			display: block;
+			font-size: 44px;
+			color: $color-primary;
+			float: left;
+		}
+		span {
+			font-size: 48px;
+			line-height: 40px;
+			display: block;
+			font-weight: 700;
+			color: #050d18;
+			margin-left: 60px;
+		}
+		p {
+			padding: 15px 0 0 0;
+			margin: 0 0 0 60px;
+			font-family: "Raleway", sans-serif;
+			font-size: 14px;
+			color: #122f57;
+		}
+		a {
+			font-weight: 600;
+			display: block;
+			margin-top: 20px;
+			color: #122f57;
+			font-size: 15px;
+			font-family: "Poppins", sans-serif;
+			transition: ease-in-out 0.3s;
+			&:hover {
+				color: #1f5297;
+			}
+		}
+	}
+}
+@media (max-width: 768px) {
+	.facts {
+		padding-top: 0px !important;
+		padding-bottom: 100px !important;
+	}
+
+  #contact h4 {
+    font-size: 13px;
   }
-  
-  .facts .count-box {
-    padding: 30px;
-    width: 100%;
-  }
-  
-  .facts .count-box i {
-    display: block;
-    font-size: 44px;
-    color: $color-primary;
-    float: left;
-  }
-  
-  .facts .count-box span {
-    font-size: 48px;
-    line-height: 40px;
-    display: block;
-    font-weight: 700;
-    color: #050d18;
-    margin-left: 60px;
-  }
-  
-  .facts .count-box p {
-    padding: 15px 0 0 0;
-    margin: 0 0 0 60px;
-    font-family: "Raleway", sans-serif;
-    font-size: 14px;
-    color: #122f57;
-  }
-  
-  .facts .count-box a {
-    font-weight: 600;
-    display: block;
-    margin-top: 20px;
-    color: #122f57;
-    font-size: 15px;
-    font-family: "Poppins", sans-serif;
-    transition: ease-in-out 0.3s;
-  }
-  
-  .facts .count-box a:hover {
-    color: #1f5297;
-  }
+}
