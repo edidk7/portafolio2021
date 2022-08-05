@@ -799,6 +799,7 @@ a:hover {
   transition: all 0.5s ease;
 }
 
+.fa-angular:hover,
 .fa-laravel:hover {
   opacity: 1;
   -webkit-transition: all 0.5s ease;
